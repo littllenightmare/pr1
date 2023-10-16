@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Lib_13">
+      <HintPath>..\Lib_13\bin\Debug\net6.0-windows\Lib_13.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
